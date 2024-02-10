@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/food.dart';
 /* import 'package:flutter_application_3/home.dart'; */
-import 'package:flutter_application_3/user.dart';
+
 void main() {
   runApp(const MyApp());
 }
