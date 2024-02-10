@@ -65,7 +65,9 @@ class _FoodState extends State<Food> {
                             children: [
                               Text(
                                 "Hey,",
-                                style: GoogleFonts.poppins(fontSize: 15,),
+                                style: GoogleFonts.poppins(
+                                  fontSize: 15,
+                                ),
                               ),
                               SizedBox(
                                 height: 3,
@@ -73,13 +75,17 @@ class _FoodState extends State<Food> {
                               Text(
                                 "Jack",
                                 style: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w900, fontSize: 15,),
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 15,
+                                ),
                               ),
                             ],
                           ),
                           Text(
                             "Manage your bed",
-                            style: GoogleFonts.poppins(fontSize: 12,),
+                            style: GoogleFonts.poppins(
+                              fontSize: 12,
+                            ),
                           ),
                         ],
                       )
@@ -164,12 +170,16 @@ class _FoodState extends State<Food> {
                               Text(
                                 "Ramadan",
                                 style: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w900, fontSize: 15,),
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 15,
+                                ),
                               ),
                               Text(
                                 "Special deals",
                                 style: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w900, fontSize: 15,),
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 15,
+                                ),
                               ),
                               SizedBox(
                                 height: 5,
@@ -188,12 +198,13 @@ class _FoodState extends State<Food> {
                             width: 15,
                           ),
                           Container(
-                            margin: EdgeInsets.only(bottom:15),
+                            margin: EdgeInsets.only(bottom: 15),
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.all(Radius.circular(999)),
-                              border:Border.all(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(999)),
+                              border: Border.all(
                                 color: Color.fromARGB(83, 255, 184, 77),
-                                width: 2, 
+                                width: 2,
                               ),
                             ),
                             child: ClipOval(
@@ -239,12 +250,16 @@ class _FoodState extends State<Food> {
                               Text(
                                 "Ramadan",
                                 style: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w900, fontSize: 15,),
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 15,
+                                ),
                               ),
                               Text(
                                 "Special deals",
                                 style: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w900, fontSize: 15,),
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 15,
+                                ),
                               ),
                               SizedBox(
                                 height: 5,
@@ -263,12 +278,13 @@ class _FoodState extends State<Food> {
                             width: 15,
                           ),
                           Container(
-                            margin: EdgeInsets.only(bottom:15),
+                            margin: EdgeInsets.only(bottom: 15),
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.all(Radius.circular(999)),
-                              border:Border.all(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(999)),
+                              border: Border.all(
                                 color: Color.fromARGB(83, 255, 184, 77),
-                                width: 2, 
+                                width: 2,
                               ),
                             ),
                             child: ClipOval(
@@ -295,7 +311,10 @@ class _FoodState extends State<Food> {
                       Padding(padding: EdgeInsets.all(5)),
                       Text(
                         "My Goal",
-                        style: GoogleFonts.poppins(fontWeight: FontWeight.w700, fontSize: 12,),
+                        style: GoogleFonts.poppins(
+                          fontWeight: FontWeight.w700,
+                          fontSize: 12,
+                        ),
                       ),
                       SizedBox(
                         width: 5,
@@ -304,7 +323,8 @@ class _FoodState extends State<Food> {
                         "4",
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w700,
-                          color: Colors.purple, fontSize: 12,
+                          color: Colors.purple,
+                          fontSize: 12,
                         ),
                       ),
                     ],
@@ -319,7 +339,8 @@ class _FoodState extends State<Food> {
                         borderRadius: BorderRadius.circular(999),
                         boxShadow: [
                           BoxShadow(
-                            color: const Color.fromARGB(255, 201, 201, 201), // Couleur de l'ombre
+                            color: const Color.fromARGB(
+                                255, 201, 201, 201), // Couleur de l'ombre
                             spreadRadius: 2, // Étendue de l'ombre
                             blurRadius: 6, // Flou de l'ombre
                             offset: Offset(0,
@@ -341,130 +362,130 @@ class _FoodState extends State<Food> {
                 ],
               ),
               Container(
-                margin: EdgeInsets.only( left: 10, right: 10, top: 10),
-                padding: EdgeInsets.all(5),
-                decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 255, 255, 255),
-                  borderRadius: BorderRadius.circular(10),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Color.fromARGB(
-                          216, 236, 236, 236), // Couleur de l'ombre
-                      spreadRadius: 6, // Étendue de l'ombre
-                      blurRadius: 8, // Flou de l'ombre
-                      offset: Offset(
-                          0, 2), // Décalage de l'ombre (horizontal, vertical)
-                    ),
-                  ],
-                ),
-                child:(
-                  Column(
-                    children: [
-                      Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.only(right: 10),
-                        width: 45,
-                        height: 45,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            style: BorderStyle.solid,
-                            width: 1,
-                            color: Color.fromARGB(174, 226, 226, 226),
-                          ),
-                          borderRadius: BorderRadius.all(Radius.circular(15)),
-                        ),
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: Image.network(
-                            "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg",
-                            width: 20,
-                            height: 20,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                      Text(
-                        "Running 7 Days",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w800,
-                          fontSize: 12,
-                        ),
-                      ),
-                      Row(
-                        children: [
-                          Container(
-                            width: 24,
-                            height: 2,
-                            decoration: BoxDecoration(
-                              border: Border.all(
-                                style: BorderStyle.solid,
-                                width: 1.8,
-                                color: const Color.fromARGB(255, 137, 5, 160),
-                              ),
-                            ),
-                          ),
-                          Container(
-                            width: 18,
-                            height: 2,
-                            decoration: BoxDecoration(
-                              border: Border.all(
-                                style: BorderStyle.solid,
-                                width: 1.2,
-                                color: Color.fromARGB(255, 207, 207, 207),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Icon(
-                            Icons.expand_less,
-                            color: const Color.fromARGB(153, 165, 164, 164),
-                          ),
-                          SizedBox(
-                            height: 5,
-                          ),
-                          Icon(
-                            Icons.expand_more,
-                            color: const Color.fromARGB(153, 165, 164, 164),
-                          ),
-                        ],
-                      )
-                    ]
-                  ),
-                  ],
-                  )
-                )
-              ),
-              Container(
-
-                child:FractionallySizedBox(
-                widthFactor: 3/ 4, // 2/3 de la largeur de l'écran
-                child: Container(
-                  height: 7,
+                  margin: EdgeInsets.only(left: 10, right: 10, top: 10),
+                  padding: EdgeInsets.all(5),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(239, 253, 250, 250),
-                    borderRadius:BorderRadius.only(bottomLeft:Radius.circular(10), bottomRight: Radius.circular(10)),
+                    color: Color.fromARGB(255, 255, 255, 255),
+                    borderRadius: BorderRadius.circular(10),
                     boxShadow: [
-                    BoxShadow(
-                      color: Color.fromARGB(
-                          216, 236, 236, 236), // Couleur de l'ombre
-                      spreadRadius: 2, // Étendue de l'ombre
-                      blurRadius: 4, // Flou de l'ombre
-                      offset: Offset(
-                          0, 2), // Décalage de l'ombre (horizontal, vertical)
+                      BoxShadow(
+                        color: Color.fromARGB(
+                            216, 236, 236, 236), // Couleur de l'ombre
+                        spreadRadius: 6, // Étendue de l'ombre
+                        blurRadius: 8, // Flou de l'ombre
+                        offset: Offset(
+                            0, 2), // Décalage de l'ombre (horizontal, vertical)
+                      ),
+                    ],
+                  ),
+                  child: (Column(
+                    children: [
+                      Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Container(
+                              margin: EdgeInsets.only(right: 10),
+                              width: 45,
+                              height: 45,
+                              decoration: BoxDecoration(
+                                border: Border.all(
+                                  style: BorderStyle.solid,
+                                  width: 1,
+                                  color: Color.fromARGB(174, 226, 226, 226),
+                                ),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(15)),
+                              ),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(10),
+                                child: Image.network(
+                                  "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg",
+                                  width: 20,
+                                  height: 20,
+                                  fit: BoxFit.contain,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Running 7 Days",
+                              style: GoogleFonts.poppins(
+                                fontWeight: FontWeight.w800,
+                                fontSize: 12,
+                              ),
+                            ),
+                            Row(
+                              children: [
+                                Container(
+                                  width: 24,
+                                  height: 2,
+                                  decoration: BoxDecoration(
+                                    border: Border.all(
+                                      style: BorderStyle.solid,
+                                      width: 1.8,
+                                      color: const Color.fromARGB(
+                                          255, 137, 5, 160),
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  width: 18,
+                                  height: 2,
+                                  decoration: BoxDecoration(
+                                    border: Border.all(
+                                      style: BorderStyle.solid,
+                                      width: 1.2,
+                                      color: Color.fromARGB(255, 207, 207, 207),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Icon(
+                                  Icons.expand_less,
+                                  color:
+                                      const Color.fromARGB(153, 165, 164, 164),
+                                ),
+                                SizedBox(
+                                  height: 5,
+                                ),
+                                Icon(
+                                  Icons.expand_more,
+                                  color:
+                                      const Color.fromARGB(153, 165, 164, 164),
+                                ),
+                              ],
+                            )
+                          ]),
+                    ],
+                  ))),
+              Container(
+                child: FractionallySizedBox(
+                  widthFactor: 3 / 4, // 2/3 de la largeur de l'écran
+                  child: Container(
+                    height: 7,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(239, 253, 250, 250),
+                      borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(10),
+                          bottomRight: Radius.circular(10)),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(
+                              216, 236, 236, 236), // Couleur de l'ombre
+                          spreadRadius: 2, // Étendue de l'ombre
+                          blurRadius: 4, // Flou de l'ombre
+                          offset: Offset(0,
+                              2), // Décalage de l'ombre (horizontal, vertical)
+                        ),
+                      ],
                     ),
-                  ], 
                   ),
                 ),
               ),
-              ),
-              
               Container(
                 margin: EdgeInsets.all(12),
                 child: (Row(
@@ -583,6 +604,493 @@ class _FoodState extends State<Food> {
                       ),
                     ],
                   ))),
+              Expanded(
+                child: ListView(
+                  padding: EdgeInsets.only(left: 10, right: 10),
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    Container(
+                      width: 100,
+                      height: 300,
+                      margin: EdgeInsets.only(top:5, bottom: 5),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Color.fromARGB(
+                                216, 236, 236, 236), // Couleur de l'ombre
+                            spreadRadius: 2,
+                            blurRadius: 4, // Flou de l'ombre
+                            offset: Offset(0,
+                                2), // Décalage de l'ombre (horizontal, vertical)
+                          ),
+                        ],
+                      ),
+                      child: Stack(
+                        children: [
+                          // Conteneur d'image
+                          Container(
+                            width: 100,
+                            height: 300,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 10,
+                            left: 25,
+                            right: 25,
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(25),
+                                // La moitié de la hauteur pour rendre le conteneur circulaire
+                              ),
+                              child: Center(
+                                child: Container(
+                                  width: 25,
+                                  height: 25,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: const Color.fromARGB(
+                                            255, 136, 26, 26),
+                                        width: 2), // Bordure autour du cercle
+                                  ),
+                                  child: ClipOval(
+                                    child: Image.network(
+                                      "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg",
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          // Conteneur blanc en bas
+                          Positioned(
+                            bottom: 0,
+                            left: 0,
+                            right: 47, // 50% de la largeur
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomLeft: Radius.circular(10),
+                                    topLeft: Radius.circular(7),
+                                    topRight: Radius.circular(20)),
+                                color: Color.fromARGB(255, 253, 253, 253),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 0,
+                            left: 50, // 50% de la largeur
+                            right: 0,
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomRight: Radius.circular(10),
+                                    topRight: Radius.circular(7),
+                                    topLeft: Radius.circular(20)),
+                                color: Color.fromARGB(255, 252, 252, 252),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ], // Couleur différente
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                        width: 10), // Ajoute un espace entre les containers
+                    Container(
+                      width: 100,
+                      height: 300,
+                      margin: EdgeInsets.only(top:5, bottom: 5),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Color.fromARGB(
+                                216, 236, 236, 236), // Couleur de l'ombre
+                            spreadRadius: 2,
+                            blurRadius: 4, // Flou de l'ombre
+                            offset: Offset(0,
+                                2), // Décalage de l'ombre (horizontal, vertical)
+                          ),
+                        ],
+                      ),
+                      child: Stack(
+                        children: [
+                          // Conteneur d'image
+                          Container(
+                            width: 100,
+                            height: 300,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 10,
+                            left: 25,
+                            right: 25,
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(25),
+                                // La moitié de la hauteur pour rendre le conteneur circulaire
+                              ),
+                              child: Center(
+                                child: Container(
+                                  width: 25,
+                                  height: 25,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: const Color.fromARGB(
+                                            255, 136, 26, 26),
+                                        width: 2), // Bordure autour du cercle
+                                  ),
+                                  child: ClipOval(
+                                    child: Image.network(
+                                      "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg",
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          // Conteneur blanc en bas
+                          Positioned(
+                            bottom: 0,
+                            left: 0,
+                            right: 47, // 50% de la largeur
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomLeft: Radius.circular(10),
+                                    topLeft: Radius.circular(7),
+                                    topRight: Radius.circular(20)),
+                                color: Color.fromARGB(255, 253, 253, 253),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 0,
+                            left: 50, // 50% de la largeur
+                            right: 0,
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomRight: Radius.circular(10),
+                                    topRight: Radius.circular(7),
+                                    topLeft: Radius.circular(20)),
+                                color: Color.fromARGB(255, 252, 252, 252),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ], // Couleur différente
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                        width: 10), // Ajoute un espace entre les containers
+                    Container(
+                      width: 100,
+                      height: 300,
+                      margin: EdgeInsets.only(top:5, bottom: 5),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Color.fromARGB(
+                                216, 236, 236, 236), // Couleur de l'ombre
+                            spreadRadius: 2,
+                            blurRadius: 4, // Flou de l'ombre
+                            offset: Offset(0,
+                                2), // Décalage de l'ombre (horizontal, vertical)
+                          ),
+                        ],
+                      ),
+                      child: Stack(
+                        children: [
+                          // Conteneur d'image
+                          Container(
+                            width: 100,
+                            height: 300,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 10,
+                            left: 25,
+                            right: 25,
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(25),
+                                // La moitié de la hauteur pour rendre le conteneur circulaire
+                              ),
+                              child: Center(
+                                child: Container(
+                                  width: 25,
+                                  height: 25,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: const Color.fromARGB(
+                                            255, 136, 26, 26),
+                                        width: 2), // Bordure autour du cercle
+                                  ),
+                                  child: ClipOval(
+                                    child: Image.network(
+                                      "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg",
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          // Conteneur blanc en bas
+                          Positioned(
+                            bottom: 0,
+                            left: 0,
+                            right: 47, // 50% de la largeur
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomLeft: Radius.circular(10),
+                                    topLeft: Radius.circular(7),
+                                    topRight: Radius.circular(20)),
+                                color: Color.fromARGB(255, 253, 253, 253),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 0,
+                            left: 50, // 50% de la largeur
+                            right: 0,
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomRight: Radius.circular(10),
+                                    topRight: Radius.circular(7),
+                                    topLeft: Radius.circular(20)),
+                                color: Color.fromARGB(255, 252, 252, 252),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ], // Couleur différente
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                        width: 10), // Ajoute un espace entre les containers
+                    Container(
+                      width: 100,
+                      height: 300,
+                      margin: EdgeInsets.only(top:5, bottom: 5),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Color.fromARGB(
+                                216, 236, 236, 236), // Couleur de l'ombre
+                            spreadRadius: 2,
+                            blurRadius: 4, // Flou de l'ombre
+                            offset: Offset(0,
+                                2), // Décalage de l'ombre (horizontal, vertical)
+                          ),
+                        ],
+                      ),
+                      child: Stack(
+                        children: [
+                          // Conteneur d'image
+                          Container(
+                            width: 100,
+                            height: 300,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 10,
+                            left: 25,
+                            right: 25,
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(25),
+                                // La moitié de la hauteur pour rendre le conteneur circulaire
+                              ),
+                              child: Center(
+                                child: Container(
+                                  width: 25,
+                                  height: 25,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: const Color.fromARGB(
+                                            255, 136, 26, 26),
+                                        width: 2), // Bordure autour du cercle
+                                  ),
+                                  child: ClipOval(
+                                    child: Image.network(
+                                      "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg",
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          // Conteneur blanc en bas
+                          Positioned(
+                            bottom: 0,
+                            left: 0,
+                            right: 47, // 50% de la largeur
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomLeft: Radius.circular(10),
+                                    topLeft: Radius.circular(7),
+                                    topRight: Radius.circular(20)),
+                                color: Color.fromARGB(255, 253, 253, 253),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            bottom: 0,
+                            left: 50, // 50% de la largeur
+                            right: 0,
+                            child: Container(
+                              height:
+                                  30, // Ajustez la hauteur selon vos besoins
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                    bottomRight: Radius.circular(10),
+                                    topRight: Radius.circular(7),
+                                    topLeft: Radius.circular(20)),
+                                color: Color.fromARGB(255, 252, 252, 252),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(216, 236, 236,
+                                        236), // Couleur de l'ombre
+                                    // Flou de l'ombre
+                                    offset: Offset(0,
+                                        2), // Décalage de l'ombre (horizontal, vertical)
+                                  ),
+                                ], // Couleur différente
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    // Ajoutez d'autres éléments du ListView si nécessaire
+                  ],
+                ),
+              ),
               Center(
                 child: (Text(
                   "$index",
