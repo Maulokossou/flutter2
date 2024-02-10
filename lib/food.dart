@@ -637,7 +637,7 @@ class _FoodState extends State<Food> {
                                   BorderRadius.all(Radius.circular(10)),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                    "https://img.freepik.com/free-photo/vibrant-colors-blend-abstract-backdrop-pattern-generated-by-ai_188544-9565.jpg"),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -757,7 +757,7 @@ class _FoodState extends State<Food> {
                                   BorderRadius.all(Radius.circular(10)),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                    "https://img.freepik.com/free-photo/vibrant-colors-blend-abstract-backdrop-pattern-generated-by-ai_188544-9565.jpg"),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -877,7 +877,7 @@ class _FoodState extends State<Food> {
                                   BorderRadius.all(Radius.circular(10)),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                    "https://img.freepik.com/free-photo/vibrant-colors-blend-abstract-backdrop-pattern-generated-by-ai_188544-9565.jpg"),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -997,7 +997,7 @@ class _FoodState extends State<Food> {
                                   BorderRadius.all(Radius.circular(10)),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    "https://img.freepik.com/free-vector/happy-woman-waving-hello-white-background_1308-46925.jpg"),
+                                    "https://img.freepik.com/free-photo/vibrant-colors-blend-abstract-backdrop-pattern-generated-by-ai_188544-9565.jpg"),
                                 fit: BoxFit.cover,
                               ),
                             ),
